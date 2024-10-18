@@ -48,7 +48,8 @@ fun BasicCompose(modifier: Modifier = Modifier){
          Text(text = "Ini Adalah Halaman Login",
              modifier= modifier,
              color = Color.Blue,
-
+             fontSize = (10.sp),
+             fontStyle = FontStyle.Italic,
 
          )
      }
