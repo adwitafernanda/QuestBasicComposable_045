@@ -13,6 +13,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.activity2.ui.theme.Activity2Theme
@@ -41,6 +42,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
              modifier= modifier,
              color = Color.Green,
              fontSize = (80.sp),
+             fontWeight = FontWeight.Bold
+         )
+         Text(text = "Ini Adalah Halaman Login",
              )
      }
 }
