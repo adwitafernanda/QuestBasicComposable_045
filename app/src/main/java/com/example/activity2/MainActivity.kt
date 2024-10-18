@@ -54,7 +54,7 @@ fun BasicCompose(modifier: Modifier = Modifier){
          )
          Text(text = "Ini Adalah Halaman Login",
              color = Color.Black,
-             fontSize = (10.sp),
+             fontSize = (25.sp),
              fontStyle = FontStyle.Italic,
          )
          Image(painter = painterResource(id = R.drawable.logo),
@@ -75,6 +75,10 @@ fun BasicCompose(modifier: Modifier = Modifier){
              fontSize = 50.sp,
              color = Color.DarkGray,
              fontWeight = FontWeight.Bold
+         )
+         Image(painter = painterResource(id = R.drawable.adit),
+             contentDescription = null,
+             modifier = Modifier.size(250.dp)
          )
 
 
