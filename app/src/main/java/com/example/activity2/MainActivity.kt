@@ -74,7 +74,7 @@ fun BasicCompose(modifier: Modifier = Modifier){
          Text(text = "20220140045", modifier = Modifier,
              fontSize = 50.sp,
              color = Color.DarkGray,
-
+             fontWeight = FontWeight.Bold
          )
 
 
